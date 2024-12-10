@@ -25,11 +25,3 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-
-simple-tailwind-starter/package-lock.json
-simple-tailwind-starter/css/
-simple-tailwind-starter/node_modules
-
-functions-directives/package-lock.json
-functions-directives/css/ 
-functions-directives/node_modules
