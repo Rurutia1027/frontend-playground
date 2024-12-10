@@ -1,5 +1,7 @@
 # Frontend Playground
 
+[![Deploy Frontend Projects](https://github.com/Rurutia1027/frontend-playground/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/Rurutia1027/frontend-playground/actions/workflows/npm-publish-github-packages.yml)
+
 Welcome to the **Frontend Playground**! 🎨 This repository is a collection of projects and experiments aimed at learning and mastering **React**, **Tailwind CSS**, and **JavaScript**.
 
 ## Project Structure
