@@ -4,6 +4,14 @@
 
 Welcome to the **Frontend Playground**! 🎨 This repository is a collection of projects and experiments aimed at learning and mastering **React**, **Tailwind CSS**, and **JavaScript**.
 
+## To-Do List
+
+- [x] [Tailwind sandbox demo codes](./tailwind-css-sandbox/)
+- [ ] [Tailwind small projects (in progress)](./tailwind-css-projects/)
+- [ ] Tailwind and Figma projects (not yet started)
+- [ ] JavaScript projects (not yet started)
+- [ ] React and Tailwind small projects (not yet started)
+
 ## Project Structure
 
 The repository is organized into the following directories:
