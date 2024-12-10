@@ -15,7 +15,7 @@ frontend-playground/
 ├── .github/workflows/          # CI/CD workflows for deployment
 ```
 
-### 1. [tailwind-css-sandbox/](https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html)`=
+### 1. [tailwind-css-sandbox/](https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html)
 
 This folder contains small, focused experiments with Tailwind CSS, such as trying out utility classes, transitions, and layouts. Ideal for quick prototypes or testing new ideas.
 
