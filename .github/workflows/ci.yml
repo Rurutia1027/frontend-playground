@@ -2,11 +2,9 @@ name: Deploy Frontend Projects
 
 on: 
   push: 
-   branches:
-    - main
-   paths:
-    - "tailwind-css-sandbox/**"
-    - "tailwind-css-projects/**"
+    branches:
+      - main
+
 permissions:
   contents: write 
 
