@@ -10,6 +10,7 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 - [ ] [Tailwind small projects (in progress)](./tailwind-css-projects/)
 - [ ] Tailwind and Figma projects (not yet started)
 - [ ] JavaScript projects (not yet started)
+- [ ] Node.js & Next.js backend integration (not yet started)
 - [ ] React and Tailwind small projects (not yet started)
 
 ## Project Structure
