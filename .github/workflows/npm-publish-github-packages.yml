@@ -3,6 +3,12 @@
 name: Deploy Frontend Projects
 
 on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
   release:
     types: [created]
 
@@ -38,7 +44,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy Tailwind CSS Sandbox to GitHub Pages
-        uses: peaceiris/action-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./tailwind-css-sandbox
@@ -51,7 +57,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy Tailwind CSS Projects to GitHub Pages
-        uses: peaceiris/action-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./tailwind-css-projects
