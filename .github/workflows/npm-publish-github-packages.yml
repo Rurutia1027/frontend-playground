@@ -43,15 +43,26 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./tailwind-css-sandbox
 
-  # deploy-tailwind-projects:
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: write
-  #   steps:
-  #     - uses: actions/checkout@v4
-  #     - name: Deploy Tailwind CSS Projects to GitHub Pages
-  #       uses: peaceiris/action-gh-pages@v3
-  #       with:
-  #         github_token: ${{ secrets.GITHUB_TOKEN }}
-  #         publish_dir: ./tailwind-css-projects
+  deploy-tailwind-projects:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        
+      - name: Install Dependencies for Tailwind CSS Projects 
+        run: |
+          if [ -f ./tailwind-css-projects/simple-tailwind-starter/package.json ]; then 
+            cd ./tailwind-css-projects/simple-tailwind-starter && npm ci 
+          fi 
+          
+          if [ -f ./tailwind-css-projects/simple-tailwind-starter/package.json ]; then 
+            cd ./tailwind-css-projects/simple-tailwind-starter && npm run build  
+          fi 
+
+      - name: Deploy Tailwind CSS Projects to GitHub Pages
+        uses: peaceiris/action-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/simple-tailwind-starter
