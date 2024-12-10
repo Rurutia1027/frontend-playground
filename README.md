@@ -39,7 +39,7 @@ Projects in this repository are deployed using GitHub Pages. For example, static
 
 Once deployed, access them at:
 
-- **GitHub Pages URL**: `https://<your-github-username>.github.io/<repository-name>/<subfolder>/`
+- **GitHub Pages URL**: `https://github.com/Rurutia1027/frontend-playground/tailwind-css-sandbox/index.html`
 
 ## How to Use
 
