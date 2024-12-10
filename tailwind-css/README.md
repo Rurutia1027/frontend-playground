@@ -2,7 +2,7 @@
 
 ## Follow the Udemy Video
 
-[Udemy Link](https://www.udemy.com/course/tailwind-from-scratch/)
+[Udemy Course](https://www.udemy.com/course/tailwind-from-scratch/)
 
 In this project,
 
@@ -13,3 +13,4 @@ In this project,
 ## References
 
 - [Tailwind-Course-Projects](https://github.com/bradtraversy/tailwind-course-projects)
+- [Tailwind-SandBox-Github-Repo](https://github.com/bradtraversy/tailwind-sandbox)
