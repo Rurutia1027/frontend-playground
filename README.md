@@ -62,4 +62,3 @@ Once deployed, access them at:
 - React: A library for building user interfaces (future additions).
 
 Happy coding! 🚀
-Feel free to update this README based on your project as it evolves. Let me know if you'd like to tweak or add anything! 😊
