@@ -1,0 +1,57 @@
+# Workflow for deploying frontend projects to GitHub Pages upon release creation
+
+name: Deploy Frontend Projects
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Install dependencies (if applicable, otherwise remove)
+      - name: Install dependencies
+        run: |
+          if [ -f ./tailwind-css-sandbox/package.json ]; then
+            cd ./tailwind-css-sandbox && npm ci
+          fi
+
+      # Optionally, build the projects if necessary (for React or similar frameworks)
+      - name: Build Tailwind CSS Sandbox
+        run: |
+          if [ -f ./tailwind-css-sandbox/package.json ]; then
+            cd ./tailwind-css-sandbox && npm run build
+          fi
+
+  deploy-tailwind-sandbox:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy Tailwind CSS Sandbox to GitHub Pages
+        uses: peaceiris/action-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-sandbox
+
+  deploy-tailwind-projects:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy Tailwind CSS Projects to GitHub Pages
+        uses: peaceiris/action-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects
