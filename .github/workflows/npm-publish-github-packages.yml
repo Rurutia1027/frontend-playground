@@ -61,8 +61,8 @@ jobs:
             cd ./tailwind-css-projects/simple-tailwind-starter && npm run build  
           fi 
 
-      - name: Deploy Tailwind CSS Projects to GitHub Pages
-        uses: peaceiris/action-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./tailwind-css-projects/simple-tailwind-starter
+      # - name: Deploy Tailwind CSS Projects to GitHub Pages
+      #   uses: peaceiris/action-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./tailwind-css-projects/simple-tailwind-starter
