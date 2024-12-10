@@ -15,7 +15,7 @@ frontend-playground/
 ├── .github/workflows/          # CI/CD workflows for deployment
 ```
 
-### 1. `tailwind-css-sandbox/`
+### 1. `[tailwind-css-sandbox/](https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html)`
 
 This folder contains small, focused experiments with Tailwind CSS, such as trying out utility classes, transitions, and layouts. Ideal for quick prototypes or testing new ideas.
 
@@ -41,13 +41,13 @@ Projects in this repository are deployed using GitHub Pages. For example, static
 
 Once deployed, access them at:
 
-- **GitHub Pages URL**: `https://github.com/Rurutia1027/frontend-playground/tailwind-css-sandbox/index.html`
+- **GitHub Pages URL**: `https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html`
 
 ## How to Use
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-github-username>/frontend-playground.git
+   git clone https://github.com/Rurutia1027/frontend-playground.git
    cd frontend-playground
    ```
 2. Explore the subfolders to view individual projects.
