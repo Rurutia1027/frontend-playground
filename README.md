@@ -28,9 +28,19 @@ frontend-playground/
 
 This folder contains small, focused experiments with Tailwind CSS, such as trying out utility classes, transitions, and layouts. Ideal for quick prototypes or testing new ideas.
 
-### 2. `tailwind-css-projects`
+### 2. [tailwind-css-projects](./tailwind-css-projects/)
 
 This folder is for larger projects built with Tailwind CSS. These projects are more structured and aim to demonstrate real-world use cases of Tailwind CSS in modern web development.
+
+#### Project Live Demo
+
+|  #  |                                                               Project                                                               |                                                           Live Demo                                                           |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
+| 01  | [Email Subscribe](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/email-subscribe) | [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/email-subscribe/index.html) |
+| 02  |   [Pricing Grids](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/pricing-cards)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/pricing-cards/index.html)  |
+| 03  |   [Product Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/product-modal)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/product-modal/index.html)  |
+| 04  |   [Image Gallery](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/image-gallery)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/image-gallery/index.html)  |
+| 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   |
 
 ### 3. [.github/workflows](https://github.com/Rurutia1027/frontend-playground/actions)
 
