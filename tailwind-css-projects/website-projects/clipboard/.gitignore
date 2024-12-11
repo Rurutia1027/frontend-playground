@@ -5,7 +5,7 @@ node_modules/
 css/style.css
 
 # Tailwind CSS Input
-#input.css
+input.css
 
 # Build/Dist Folder (if applicable)
 dist/
