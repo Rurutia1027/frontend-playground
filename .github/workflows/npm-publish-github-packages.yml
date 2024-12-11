@@ -102,7 +102,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - use: actions/checkout@v4
+      - uses: actions/checkout@v4
         
       # Check Node.js is installed correctly 
       - name: Check Node.js Version 
