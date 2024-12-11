@@ -42,6 +42,7 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 03  |   [Product Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/product-modal)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/product-modal/index.html)  |
 | 04  |   [Image Gallery](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/image-gallery)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/image-gallery/index.html)  |
 | 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   |
+| 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |   [Live Demo](https://tailwind-website-clipboard.netlify.app/)   |
 
 ### 3. [GitHub Action Build & Deploy](https://github.com/Rurutia1027/frontend-playground/actions)
 
