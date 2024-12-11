@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-cyan-50">
+      <!-- Card Container -->
+      <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+        <!-- Menu Container -->
+        <div
+          class="flex flex-col items-center justify-center sapce-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end"
+        >
+          <!-- Menu Items -->
+          <div class="group">
+            <a href="#">Vector</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+
+          <div class="group">
+            <a href="#">Illustrations</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Images</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Icons</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Search Container -->
+        <div
+          class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0 m-3"
+        >
+          <!-- Input and SVG Container -->
+          <div class="flex justify-between border-b">
+            <input
+              type="text"
+              class="ml-6 md:w-80 placeholder:font-thin focus:outline-none"
+              placeholder="Search"
+            />
+
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="10" cy="10" r="7" />
+                <line x1="21" y1="21" x2="15" y2="15" />
+              </svg>
+            </button>
+          </div>
+          <!-- Upload Button -->
+          <button
+            class="py-3 px-14 text-lg font-normal text-white bg-black border border-black rounded-md shadow-2xl duration-200 hover:bg-white hover:text-black"
+          >
+            Upload
+          </button>
+        </div>
+
+        <!-- Gallery Container -->
+        <div class="grid gap-4 md:grid-cols-3">
+          <!-- Image 1 -->
+          <div class="relative group">
+            <img src="images/image1.jpg" alt="" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Abstract Painting</p>
+                  <p class="text xs">245 likes - 35 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="relative group">
+            <img src="images/image2.jpg" alt="" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Abstract Painting</p>
+                  <p class="text xs">245 likes - 35 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="relative group">
+            <img src="images/image3.jpg" alt="" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Abstract Painting</p>
+                  <p class="text xs">245 likes - 35 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="relative group">
+            <img src="images/image4.jpg" alt="" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Abstract Painting</p>
+                  <p class="text xs">245 likes - 35 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="relative group">
+            <img src="images/image5.jpg" alt="" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Abstract Painting</p>
+                  <p class="text xs">245 likes - 35 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="relative group">
+            <img src="images/image6.jpg" alt="" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Abstract Painting</p>
+                  <p class="text xs">245 likes - 35 Shares</p>
+                </div>
+                <div class="flex items-center">
+                  <img src="images/bookmark.svg" alt="bookmark" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+ flex: enables the CSS flexbox layout mode for the container. It makes the child elements flexible 
+       and allows them to align and distribute space dynamically. 
+
+ items-center: aligns all flex items (child elements) along the cross-axis(vertically for flex) to the container.
+        Equivalent to align-items: center; 
+
+ justify-center: Aligns all flex items along the main axis(horizontally for flex) to the center. Equivalent to justify 
+ content. 
+
+ min-h-screen: Set the minimum height of the container to the height of the viewport. Equivalent min-height: 100vh. 
+
+ bg-cyan-50: applies a very light cyan background color from Tailwind's color palette. Equivalent to background background-color: $ECFEFF. 
+
+bg-white: Sets the background color of the card container to white. Equivalent to background-color: white.
+
+p-6: applies padding of 1.5rem on all sides of the card container(p- sets padding for all sides).
+
+m-3: adds a margin of 0.75rem around the card container(m- is used to set the margin for all sides)
+
+
+space-y-10: this adds vertical spacing(gap) of 2.5rem(40px) between child elements insdie the card. 
+Tailwind's space-y- applies the specified spacing only between child elements, not outside the container. 
+
+shadow-2xl 
+This applies a very large box shadow to the card, giving it floating appearance. Tailwind shadows are pre-defined, 
+and the shaeow-2xl is one of the largest. Equivalent to a CSS shadow with offsets and blurs like 
+
+box-shadow: 025px 50 px - 12px xxx 
+
+rounded-3xl
+Gives the corners of the card a large rounded border-radius. rounded-3xl corresponds to border-radius: 1.5rem. 
+
+md:p-40:
+This adds a media query to increase padding for medium and larger screens. 
+
+
+flex: This enables flexbox layout for the container, meaning its child elements will be laid out using flexbox rules. 
+
+flex-col: sets the direction to column(flex-direction: column); so the child elements are stacked vertically. 
+
+items-center: 
+
+This aligns all child elements horizontally cross axis to the center. And this works because the flex direction is column, 
+and in a column layout, the cross-axis is horizontal. 
+
+Equivalent CSS: align-items: center; 
+
+Justify-center: 
+this aligns all child elements vertically(main-axis) to the center. in a column layout, the main axis is veritcal.
+equivalent CSS: this justify-content: center.
+
+space-y-3: this adds vertical spacing(gap) of 0.75rem between child elements. 
+and this does not add padding/margin around the entire container-only between the items. 
+
+below are responsive behavior(prefixed with md):
+
+md: flex-row
+On screens or wier, this changes flex direction to row(flex-direction: row; ) so the child elements will be laid out orizontally instead of vertically.
+
+
+md:space-y-0:
+This removes vertical spacing between items(space-y-0) when the screen is medium-size of larger because items will now be laid out in a row.
+
+md:space-x-8: 
+Adds horizontal spacing of 2rem, between child elements when the screen is medium-sized or larger. 
+
+md:mb-2: This adds a bottom margin of 0.5rem to the container on medium-sized screens or larger. 
+
+
+mx-2: This adds horizontal margin of 0.5rem, 
+
+mt-2: adds a top margin of 0.5 rem
+
+duration-500: specifies a transition duration of 500ms 
+
+border-b-2: this adds a bottom border with a width of 2px. 
+
+opacity-0: initially sets the element's opacity to 0, making it completely invisible 
+
+border-black: sets the bottom border color to black
+
+group-hover: opacity-100: when parent elemnt is hovered over, this changes the opacity of the elemtn to 100%
+
+py-3: adds vertical padding of 0.75 rem to the top and bottom 
+
+px-14: adds horizontal padding of 3.5 rem to the left and right, 
+
+text-lg: sets the font size to large(1.125rem)
+
+
+font-normal: This set the font weight to normal 
+
+text-white: sets the text color to white 
+
+bg-black: sets the background color to black 
+
+border border-black : the first border enables the border settings, and the border-black sets the color of the border. 
+
+rounded-md: adds medium-sized rounded corners with a 0.375rem 
+-->
