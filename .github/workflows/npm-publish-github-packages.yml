@@ -95,3 +95,35 @@ jobs:
           publish_dir: ./tailwind-css-projects/mini-projects/login-modal
           publish_branch: gh-pages
           destination_dir: login-modal
+
+  deploy-tailwind-website-projects:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - use: actions/checkout@v4
+        
+      # Check Node.js is installed correctly 
+      - name: Check Node.js Version 
+        run: node --version 
+
+      # Install dependencies 
+      - name: Install Node.js Dependencies 
+        run: |
+          cd  ./tailwind-css-projects/website-projects/clipboard
+          npm ci 
+      # Build the CSS using Tailwind 
+      - name: Build Tailwind CSS 
+        run: | 
+          cd ./tailwind-css-projects/website-projects/clipboard
+          npm run build 
+
+      # Deploy Clipboard Website Project 
+      - name: Deply Website Project Cliboard 
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/website-projects/clipboard
+          publish_branch: gh-pages
+          destination_dir: clipboard
