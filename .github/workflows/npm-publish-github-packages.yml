@@ -43,26 +43,55 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./tailwind-css-sandbox
 
-  deploy-tailwind-projects:
+  deploy-tailwind-mini-projects:
     needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        
-      - name: Install Dependencies for Tailwind CSS Projects 
-        run: |
-          if [ -f ./tailwind-css-projects/simple-tailwind-starter/package.json ]; then 
-            cd ./tailwind-css-projects/simple-tailwind-starter && npm ci 
-          fi 
-          
-          if [ -f ./tailwind-css-projects/simple-tailwind-starter/package.json ]; then 
-            cd ./tailwind-css-projects/simple-tailwind-starter && npm run build  
-          fi 
+      
+      # Deploy email-subscribe 
+      - name: Deply Each Mini-Project One by One
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/mini-projects/email-subscribe
+          publish_branch: gh-pages
+          destination_dir: email-subscribe
+      
+      # Deploy image-gallery
+      - name: Deploy Image Gallery 
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/mini-projects/image-gallery
+          publish_branch: gh-pages
+          destination_dir: image-gallery
 
-      # - name: Deploy Tailwind CSS Projects to GitHub Pages
-      #   uses: peaceiris/action-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./tailwind-css-projects/simple-tailwind-starter
+      # Deploy pricing-cards
+      - name: Deploy Pricing Cards
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/mini-projects/pricing-cards
+          publish_branch: gh-pages
+          destination_dir: pricing-cards
+      
+      # Deploy product-modal
+      - name: Deploy Product Modal
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/mini-projects/product-modal
+          publish_branch: gh-pages
+          destination_dir: product-modal
+
+      # Deploy login-modal
+      - name: Deploy Login Modal 
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/mini-projects/login-modal
+          publish_branch: gh-pages
+          destination_dir: login-modal
