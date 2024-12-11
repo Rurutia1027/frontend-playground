@@ -42,7 +42,7 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 04  |   [Image Gallery](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/image-gallery)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/image-gallery/index.html)  |
 | 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   |
 
-### 3. [.github/workflows](https://github.com/Rurutia1027/frontend-playground/actions)
+### 3. [GitHub Action Build & Deploy](https://github.com/Rurutia1027/frontend-playground/actions)
 
 This folder contains the CI/CD configuration files for deploying projects. Each project has been set up to deploy its static assets (like `index.html` and related files) to GitHub Pages.
 
