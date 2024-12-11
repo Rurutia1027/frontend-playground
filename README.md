@@ -7,7 +7,7 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 ## To-Do List
 
 - [x] [Tailwind sandbox demo codes](./tailwind-css-sandbox/)
-- [ ] [Tailwind small projects (in progress)](./tailwind-css-projects/)
+- [ ] [Tailwind projects (in progress)](./tailwind-css-projects/)
 - [ ] Tailwind and Figma projects (not yet started)
 - [ ] JavaScript projects (not yet started)
 - [ ] Node.js & Next.js backend integration (not yet started)
