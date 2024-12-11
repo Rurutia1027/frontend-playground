@@ -95,3 +95,12 @@ jobs:
           publish_dir: ./tailwind-css-projects/mini-projects/login-modal
           publish_branch: gh-pages
           destination_dir: login-modal
+
+      # Deploy Clipboard
+      - name: Deply Website Project Cliboard 
+        uses: peaceiris/action-gh-pages@v3
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./tailwind-css-projects/website-projects/clipboard
+          publish_branch: gh-pages
+          destination_dir: clipboard
