@@ -1,8 +1,7 @@
-# Frontend Playground
+# Frontend Playground [![Netlify Status](https://api.netlify.com/api/v1/badges/9d907ac8-ee11-4b9e-8323-2ae13dc581db/deploy-status)](https://app.netlify.com/sites/project-tailwind-clipboard/deploys) [![pages-build-deployment](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment)
 
-[![pages-build-deployment](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9d907ac8-ee11-4b9e-8323-2ae13dc581db/deploy-status)](https://app.netlify.com/sites/project-tailwind-clipboard/deploys)
+
 
 Welcome to the **Frontend Playground**! 🎨 This repository is a collection of projects and experiments aimed at learning and mastering **React**, **Tailwind CSS**, and **JavaScript**.
 
