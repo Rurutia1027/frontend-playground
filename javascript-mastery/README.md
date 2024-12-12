@@ -23,3 +23,4 @@ Explore key concepts such as **Promises**, **Generators**, **Async/Await**, **Ty
 
 - [Course Link](https://app.amigoscode.com/p/javascript-mastery)
 - [Github Repository](https://github.com/amigoscode/javascript-mastery)
+- [JavaScript References](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
