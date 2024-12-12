@@ -6,12 +6,12 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 
 ## To-Do List
 
-- [x] [Tailwind sandbox demo codes](./tailwind-css-sandbox/)
-- [ ] [Tailwind projects (in progress)](./tailwind-css-projects/)
-- [ ] Tailwind and Figma projects (not yet started)
-- [ ] JavaScript projects (not yet started)
-- [ ] Node.js & Next.js backend integration (not yet started)
-- [ ] React and Tailwind small projects (not yet started)
+- [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
+- [ ] [Tailwind CSS Projects](./tailwind-css-projects/)
+- [ ] [Javascript Mastery](./javascript-mastery/)
+- [ ] Tailwind & Figma Projects
+- [ ] Node.js & Next.js
+- [ ] React & Tailwind
 
 ---
 
@@ -21,16 +21,21 @@ The repository is organized into the following directories:
 
 ```
 frontend-playground/
+├── javascript-mastery/         # Hands-on Javascript
 ├── tailwind-css-sandbox/       # Hands-on Tailwind CSS experiments and small projects
 ├── tailwind-css-projects/      # Larger projects showcasing Tailwind CSS in action
 ├── .github/workflows/          # CI/CD workflows for deployment
 ```
 
-### 1. [tailwind-css-sandbox](https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html)
+### 0. [GitHub Actions](https://github.com/Rurutia1027/frontend-playground/actions)
+
+This folder contains the CI/CD configuration files for deploying projects. Each project has been set up to deploy its static assets (like `index.html` and related files) to GitHub Pages.
+
+### 1. [Tailwind CSS SandBox](https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html)
 
 This folder contains small, focused experiments with Tailwind CSS, such as trying out utility classes, transitions, and layouts. Ideal for quick prototypes or testing new ideas.
 
-### 2. [tailwind-css-projects](./tailwind-css-projects/)
+### 2. [Tailwind CSS Projects](./tailwind-css-projects/)
 
 This folder is for larger projects built with Tailwind CSS. These projects are more structured and aim to demonstrate real-world use cases of Tailwind CSS in modern web development.
 
@@ -45,11 +50,10 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   | [GitHub Pages ](https://pages.github.com/) |
 | 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)      |                                 [Live Demo](https://tailwind-website-clipboard.netlify.app/)                                  |    [Netlify](https://app.netlify.com/)     |
 | 07  |     [LoopStudio](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |                                   [Live Demo](https://frontend-playground-five.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
-|     |
 
-### 3. [GitHub Action Build & Deploy](https://github.com/Rurutia1027/frontend-playground/actions)
+### 3. [Javascript Mastery](./javascript-mastery)
 
-This folder contains the CI/CD configuration files for deploying projects. Each project has been set up to deploy its static assets (like `index.html` and related files) to GitHub Pages.
+Explore key concepts such as **Promises**, **Generators**, **Async/Await**, **Type Coercion**,** Data Structures**, the **Module System**, and **NPM**. This section also introduces the basics of Express JS and React JS for building dynamic, modern applications.
 
 ---
 
@@ -60,16 +64,6 @@ The primary goals of this repository are:
 1. **Learn Tailwind CSS**: Explore the utility-first approach of styling with Tailwind and master its features.
 2. **Improve JavaScript Skills**: Build interactive components and dynamic functionalities.
 3. **Dive into React**: Begin experimenting with React to build reusable components and stateful applications.
-
----
-
-## Deployment
-
-Projects in this repository are deployed using GitHub Pages. For example, static sites (like those in the `tailwind-css-sandbox`) are automatically published using the CI/CD pipeline configured in `.github/workflows/`.
-
-Once deployed, access them at:
-
-- **GitHub Pages URL**: `https://rurutia1027.github.io/frontend-playground/tailwind-css-sandbox/index.html`
 
 ---
 
@@ -99,6 +93,13 @@ Happy coding! 🚀
 
 ## References
 
+#### Tailwind CSS
+
 - [Udemy: Tailwind CSS From Scratch Learn By Building Projects](https://www.udemy.com/course/tailwind-from-scratch/)
 
 - [GitHub: Tailwind Course Projects](https://github.com/bradtraversy/tailwind-course-projects)
+
+#### Javascript Mastery
+
+- [Javascript Mastery: Learn the Javascript Language from A-Z](https://app.amigoscode.com/p/javascript-mastery)
+- [GitHub: Javascript Mastery](https://github.com/amigoscode/javascript-mastery)
