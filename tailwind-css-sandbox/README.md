@@ -1,4 +1,5 @@
-# Tailwind CSS Sandbox
+# Tailwind CSS Sandbox [![pages-build-deployment](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment)
+
 
 This repository contains a collection of projects and experiments designed to explore and demonstrate the capabilities of **Tailwind CSS**. Each project corresponds to a specific concept or feature of Tailwind CSS, showcasing its utility-first design and customization options.
 
