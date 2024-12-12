@@ -2,6 +2,11 @@
 
 This directory contains a collection of mini-projects built with **Tailwind CSS**. Each project demonstrates how to use Tailwind CSS utilities to create modern, responsive designs.
 
+## Tutorial Video & Source Codes
+
+- [Udemy Course](https://www.udemy.com/course/tailwind-from-scratch/)
+- [Tutoral Course GitHub Repo](https://github.com/bradtraversy/tailwind-course-projects)
+
 ## Development Environment
 
 To modify or extend the projects:
@@ -13,15 +18,15 @@ To modify or extend the projects:
 
 ## Projects Overview
 
-|  #  |                                                               Project                                                               |                                                           Live Demo                                                           |
-| :-: | :---------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
-| 01  | [Email Subscribe](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/email-subscribe) | [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/email-subscribe/index.html) |
-| 02  |   [Pricing Grids](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/pricing-cards)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/pricing-cards/index.html)  |
-| 03  |   [Product Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/product-modal)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/product-modal/index.html)  |
-| 04  |   [Image Gallery](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/image-gallery)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/image-gallery/index.html)  |
-| 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   |
-| 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |   [Live Demo](https://tailwind-website-clipboard.netlify.app/)   |
-
+|  #  |                                                               Project                                                               |                                                           Live Demo                                                           |            Deployment Platform             |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------: |
+| 01  | [Email Subscribe](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/email-subscribe) | [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/email-subscribe/index.html) | [GitHub Pages ](https://pages.github.com/) |
+| 02  |   [Pricing Grids](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/pricing-cards)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/pricing-cards/index.html)  | [GitHub Pages ](https://pages.github.com/) |
+| 03  |   [Product Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/product-modal)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/product-modal/index.html)  | [GitHub Pages ](https://pages.github.com/) |
+| 04  |   [Image Gallery](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/image-gallery)   |  [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/image-gallery/index.html)  | [GitHub Pages ](https://pages.github.com/) |
+| 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   | [GitHub Pages ](https://pages.github.com/) |
+| 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)      |                                 [Live Demo](https://tailwind-website-clipboard.netlify.app/)                                  |    [Netlify](https://app.netlify.com/)     |
+| 07  |     [LoopStudio](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |                                   [Live Demo](https://frontend-playground-five.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 
 ---
 
