@@ -1,0 +1,7 @@
+{
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
