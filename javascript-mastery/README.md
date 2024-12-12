@@ -13,7 +13,14 @@ To set up the development environment for mastering JavaScript:
    - Download and install [Node.js](https://nodejs.org/) to enable a runtime environment for executing JavaScript outside the browser.
 
 3. **Install CodeRunner Extension in VSCode**
+
    - Enhance your productivity by installing the [CodeRunner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner). This allows you to quickly run JavaScript and other languages directly within the editor.
+
+4. **Install Prettier Extension in VSCode**
+   - Install the [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension for consistent formatting of your JavaScript code.
+   - Enable **Format on Save** for seamless code formatting:
+     - Open VSCode settings.
+     - Update the [**settings.json**](.vscode/settings.json)
 
 ## Goals
 
