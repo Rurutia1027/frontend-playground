@@ -1,4 +1,5 @@
-# Tailwind CSS Projects
+# Tailwind CSS Projects [![pages-build-deployment](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment)
+
 
 This directory contains a collection of mini-projects built with **Tailwind CSS**. Each project demonstrates how to use Tailwind CSS utilities to create modern, responsive designs.
 
