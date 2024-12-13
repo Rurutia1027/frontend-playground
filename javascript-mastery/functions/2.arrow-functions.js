@@ -80,3 +80,34 @@ console.log(
       1
     )
 );
+
+console.log("===embedded function inovcations ===");
+const add = (a, b) => a + b;
+const calculate = (a, b, sign) => {
+  switch (sign) {
+    case "+":
+      return a + b;
+    case "-":
+      return a - b;
+    case "*":
+      return a * b;
+    case "/":
+      if (b == 0) {
+        console.log("b can not be 0 in divide operation");
+        return 0;
+      } else {
+        return a / b;
+      }
+    default:
+      console.log("unknown sign return 0!");
+      return 0;
+  }
+};
+
+console.log(calculate(1, 3, "*"));
+console.log(calculate(1, 3, "+"));
+console.log(calculate(1, 3, "-"));
+console.log(calculate(1, 3, "/"));
+console.log(calculate(1, 3, "&"));
+console.log(calculate(1, 0, "/"));
+console.log(calculate("0000", 3, "*"));
