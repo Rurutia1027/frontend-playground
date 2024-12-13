@@ -22,7 +22,7 @@ const person = {
 };
 
 // -- Copy Arrays with Spread Operator
-console.log("// -- Copy Arrays with Spread Operator \n");
+console.log("\n// -- Copy Arrays with Spread Operator \n");
 
 const arr1 = [1, 2, 3];
 const arr2 = [...arr1];
@@ -33,7 +33,7 @@ console.log(arr3);
 console.log(arr4);
 
 // -- Merging Arrays with Spread Operator
-console.log("// -- Merging Arrays with Spread Operator\n");
+console.log("\n// -- Merging Arrays with Spread Operator\n");
 const list1 = [1, 2];
 const list2 = [3, 4];
 const mergedArr = [...list1, ...list2, ...list2];
@@ -41,7 +41,7 @@ const mergedArr = [...list1, ...list2, ...list2];
 console.log(mergedArr);
 
 // Copy Objects wit Spread Operator
-console.log("// Copy Objects wit Spread Operator \n");
+console.log("\n// Copy Objects wit Spread Operator \n");
 const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3, d: 4 };
 const obj3 = { a: 1, b: 2, obj1: obj1, obj2: obj2 };
@@ -59,7 +59,7 @@ obj2.toString = function toString() {
 };
 
 console.log(
-  "// Copy Objects wit Spread Operator update original obj and verify shallow copy\n"
+  "\n// Copy Objects wit Spread Operator update original obj and verify shallow copy\n"
 );
 
 // -- here if we add the function to origin object, it supports to be invoked
@@ -91,3 +91,31 @@ mergeObj2.toString = obj2.toString;
 console.log(
   "mergeObj2#toString() : " + JSON.stringify(mergeObj2.toString(), null, 1)
 );
+
+// Function Arguments via Spread Operator
+console.log("\n// Function Arguments via Spread Operator \n");
+const params_3 = [1, 2, 3];
+const params_2 = [1, 2];
+const params_5 = [1, 2, 3, 4, 5];
+
+const sum = (x, y, z) => x + y + z;
+
+// param length equals --> works as expected
+console.log(sum(...params_3));
+// param length shorter: NaN --> this will not invoke the calculation
+console.log(sum(...params_2));
+// param length longer --> works as expected, only former 3 params join the calculation
+console.log(sum(...params_5));
+
+// -- Converting a String into an Array via Spread Operator
+
+console.log("\n// -- Converting a String into an Array via Spread Operator\n");
+const str = "hello";
+const charArray = [...str];
+console.log(
+  "string length is: " +
+    str.length +
+    " char array length is: " +
+    charArray.length
+);
+
