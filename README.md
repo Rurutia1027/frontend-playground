@@ -8,7 +8,7 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 
 - [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
 - [ ] [Tailwind CSS Projects](./tailwind-css-projects/)
-- [ ] [Javascript Mastery](./javascript-mastery/)
+- [x] [Javascript Mastery](./javascript-mastery/)
 - [ ] Tailwind & Figma Projects
 - [ ] Node.js & Next.js
 - [ ] React & Tailwind
