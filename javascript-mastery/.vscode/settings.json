@@ -1,6 +1,9 @@
 {
   "code-runner.showExecutionMessage": false,
   "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "javascript": "npx jest"
+  },
   "files.autoSave": "afterDelay",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
