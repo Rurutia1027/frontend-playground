@@ -50,6 +50,8 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   | [GitHub Pages ](https://pages.github.com/) |
 | 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)      |                                 [Live Demo](https://tailwind-website-clipboard.netlify.app/)                                  |    [Netlify](https://app.netlify.com/)     |
 | 07  |     [LoopStudio](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |                                   [Live Demo](https://frontend-playground-five.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+| 08  |     [TinyURL](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/shortly)     |                                   [Live Demo](https://frontend-playground-wi4d.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+
 
 ### 3. [Javascript Mastery](./javascript-mastery)
 
