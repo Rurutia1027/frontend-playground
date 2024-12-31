@@ -1,3 +1,5 @@
+const btn = document.getElementById('menu-btn')
+const menu = document.getElementById('menu')
 
 const input = document.getElementById('link-input')
 const linkForm = document.getElementById('link-form')
@@ -7,6 +9,11 @@ console.log(input)
 console.log(linkForm)
 console.log(errMsg)
 
+btn.addEventListener('click', () => {
+    btn.classList.toggle('open')
+    menu.classList.toggle('flex')
+    menu.classList.toggle('hidden')
+});
 linkForm.addEventListener('submit', formSubmit);
 
 
