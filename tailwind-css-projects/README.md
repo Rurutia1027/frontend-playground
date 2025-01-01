@@ -29,7 +29,7 @@ To modify or extend the projects:
 | 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)      |                                 [Live Demo](https://tailwind-website-clipboard.netlify.app/)                                  |    [Netlify](https://app.netlify.com/)     |
 | 07  |     [LoopStudio](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |                                   [Live Demo](https://frontend-playground-five.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 | 08  |     [TinyURL](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/shortly)     |                                   [Live Demo](https://frontend-playground-wi4d.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
-
+| 09  |     [TestMonial-Grid](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/testmonial-grid)     |                                   [Live Demo](https://frontend-playground-testmonial.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 ---
 
 ## Mini Project Descriptions
