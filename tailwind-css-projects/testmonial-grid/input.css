@@ -1,0 +1,9 @@
+/* 
+here we gonna add 3 directives and this is basically brings in the main parts of Tailwind
+    1. the base 
+    2. the components 
+    3. the utilities 
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
