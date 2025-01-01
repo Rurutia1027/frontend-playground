@@ -7,8 +7,9 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 ## To-Do List
 
 - [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
-- [ ] [Tailwind CSS Projects](./tailwind-css-projects/)
+- [x] [Tailwind CSS Projects](./tailwind-css-projects/)
 - [x] [Javascript Mastery](./javascript-mastery/)
+- [ ] [Javascript Advanced](./)
 - [ ] Tailwind & Figma Projects
 - [ ] Node.js & Next.js
 - [ ] React & Tailwind
@@ -53,6 +54,7 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 08  |     [TinyURL](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/shortly)     |                                   [Live Demo](https://frontend-playground-wi4d.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 | 09  |     [TestMonial-Grid](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/testmonial-grid)     |                                   [Live Demo](https://frontend-playground-testmonial.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 | 10  |     [Fylo](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/fylo)     |                                   [Live Demo](https://frontend-playground-j5jl.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+| 11  |     [Bookmark](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/bookmark)     |                                   [Live Demo](https://frontend-playground-lftt.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 
 ### 3. [Javascript Mastery](./javascript-mastery)
 
