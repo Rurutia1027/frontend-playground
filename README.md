@@ -5,7 +5,6 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 ---
 
 ## To-Do List
-
 - [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
 - [x] [Tailwind CSS Projects](./tailwind-css-projects/)
 - [x] [Javascript Mastery](./javascript-mastery/)
