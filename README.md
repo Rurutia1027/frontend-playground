@@ -52,6 +52,7 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 07  |     [LoopStudio](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |                                   [Live Demo](https://frontend-playground-five.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 | 08  |     [TinyURL](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/shortly)     |                                   [Live Demo](https://frontend-playground-wi4d.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 | 09  |     [TestMonial-Grid](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/testmonial-grid)     |                                   [Live Demo](https://frontend-playground-testmonial.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+| 10  |     [Fylo](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/fylo)     |                                   [Live Demo](https://frontend-playground-j5jl.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 
 ### 3. [Javascript Mastery](./javascript-mastery)
 
