@@ -1,6 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
-  darkMode: 'class',
+  content: ["./*.html"],
   theme: {
     extend: {
       colors: {
@@ -14,20 +14,21 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Raleway', 'sans-serif'],
-        opensans: ['Open Sans', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif']
       },
       backgroundImage: (theme) => ({
         'logo-dark-mode': "url('../images/logo-dark-mode.svg')",
         'logo-light-mode': "url('../images/logo-light-mode.svg')",
-        'curvy-dark-mode': "url('../images/bg-curvy-dark-mode.svg')",
-        'curvy-light-mode': "url('../images/bg-curvy-light-mode.svg')",
+        "curvy-dark-mode": "url('../images/bg-curvy-dark-mode.svg')",
+        "curylight-mode": "url('../images/bg-curvy-light-mode.svg')",
       }),
     },
   },
   variants: {
     extend: {
       backgroundImage: ['dark'],
-    },
+    }
   },
   plugins: [],
 }
+
