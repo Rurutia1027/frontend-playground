@@ -3,6 +3,9 @@
 // This is called th ESX modules where esentially we can get a piece of functionality into our file. 
 // This is just the javascript, and this is nothing specific to react now. 
 import React from 'react';  
+
+/// this is only be imported once in our project-scope
+// we add it to index.js is just because index.js is our react-app's **Entry Point** 
 import ReactDom from 'react-dom';
 // Here, we are creating our first React component. 
 // A React component alwasy starts as a function. However, to indicate to React that this function 
@@ -10,6 +13,8 @@ import ReactDom from 'react-dom';
 // The return type of this **Component** function must follow the syntax of JSX(JavaScript XML).
 // which allows us to write HTML-like code within JavaScript. 
 function Greeting() { 
+
+  // This is the JSX(JavaScript XML which is a combination of HTML/XML and JavaScript)
   return <h4>this is my first component</h4>;  
 }
 
