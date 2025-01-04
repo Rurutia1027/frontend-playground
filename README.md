@@ -8,7 +8,7 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 - [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
 - [x] [Tailwind CSS Projects](./tailwind-css-projects/)
 - [x] [Javascript Mastery](./javascript-mastery/)
-- [ ] [React Project](./javascript-complete-course)
+- [ ] [React Projects](./javascript-complete-course)
 - [ ] Tailwind & Figma Projects
 - [ ] Node.js & Next.js
 - [ ] React & Tailwind
@@ -24,6 +24,8 @@ frontend-playground/
 ├── javascript-mastery/         # Hands-on Javascript
 ├── tailwind-css-sandbox/       # Hands-on Tailwind CSS experiments and small projects
 ├── tailwind-css-projects/      # Larger projects showcasing Tailwind CSS in action
+├── react-projects              # React Projects based on JavaScript
+├── react-typescript-projects   # React Projects based on TypeScrpt 
 ├── .github/workflows/          # CI/CD workflows for deployment
 ```
 
