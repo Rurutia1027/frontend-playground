@@ -17,7 +17,7 @@ export const Book = ({ img, title, author }) => {
         console.log(title)
       }}
     >
-      <img src={img} width={100} height={130} />
+      <img src={img} width={100} height={130} alt='' />
       <h3>{title}</h3>
       <h4 onClick={() => console.log(author)}>{author}</h4>
       <button type='button' onClick={clickHandler}>
