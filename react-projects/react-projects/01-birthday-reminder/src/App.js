@@ -16,6 +16,15 @@ function App() {
         >
           clear all
         </button>
+        <button
+          onClick={() => {
+            if (people.length === 0) {
+              setPeople(data)
+            }
+          }}
+        >
+          refresh
+        </button>
       </section>
     </main>
   )
