@@ -9,7 +9,7 @@ Below is a table of the projects in this repository, along with their live demo 
 | Project Name           | Live Demo                                                   | Deployment Platform |
 | ---------------------- | ----------------------------------------------------------- | ------------------- |
 | 01 - Birthday Reminder | [Live Demo](https://birthday-reminder-teal-chi.vercel.app/) | Vercel              |
-| 02 - Tours             | [Live Demo](http://your-cloudfront-url)                     | Vercel              |
+| 02 - Tours             | [Live Demo](https://tours-kohl.vercel.app/)                 | Vercel              |
 | 03 - Reviews           | [Live Demo](http://your-cloudfront-url)                     | Vercel              |
 | 04 - Accordion         | [Live Demo](http://your-cloudfront-url)                     | Vercel              |
 | 05 - Menu              | [Live Demo](http://your-cloudfront-url)                     | Vercel              |
