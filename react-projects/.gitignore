@@ -24,3 +24,4 @@ yarn-error.log*
 
 react-app-starter/package-lock.json 
 react-app-starter/node_modules
+react-projects/**/node_modules
