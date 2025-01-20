@@ -5,6 +5,7 @@ Welcome to the **Frontend Playground**! 🎨 This repository is a collection of 
 ---
 
 ## To-Do List
+
 - [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
 - [x] [Tailwind CSS Projects](./tailwind-css-projects/)
 - [x] [Javascript Mastery](./javascript-mastery/)
@@ -25,7 +26,7 @@ frontend-playground/
 ├── tailwind-css-sandbox/       # Hands-on Tailwind CSS experiments and small projects
 ├── tailwind-css-projects/      # Larger projects showcasing Tailwind CSS in action
 ├── react-projects              # React Projects based on JavaScript
-├── react-typescript-projects   # React Projects based on TypeScrpt 
+├── react-typescript-projects   # React Projects based on TypeScrpt
 ├── .github/workflows/          # CI/CD workflows for deployment
 ```
 
@@ -52,14 +53,44 @@ This folder is for larger projects built with Tailwind CSS. These projects are m
 | 05  |     [Login Modal](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/mini-projects/login-modal)     |   [Live Demo](https://rurutia1027.github.io/frontend-playground/tailwind-css-projects/mini-projects/login-modal/index.html)   | [GitHub Pages ](https://pages.github.com/) |
 | 06  |     [ClipBoard](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)      |                                 [Live Demo](https://tailwind-website-clipboard.netlify.app/)                                  |    [Netlify](https://app.netlify.com/)     |
 | 07  |     [LoopStudio](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/website-projects/clipboard)     |                                   [Live Demo](https://frontend-playground-five.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
-| 08  |     [TinyURL](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/shortly)     |                                   [Live Demo](https://frontend-playground-wi4d.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
-| 09  |     [TestMonial-Grid](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/testmonial-grid)     |                                   [Live Demo](https://frontend-playground-testmonial.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
-| 10  |     [Fylo](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/fylo)     |                                   [Live Demo](https://frontend-playground-j5jl.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
-| 11  |     [Bookmark](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/bookmark)     |                                   [Live Demo](https://frontend-playground-lftt.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+| 08  |                [TinyURL](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/shortly)                |                                   [Live Demo](https://frontend-playground-wi4d.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+| 09  |        [TestMonial-Grid](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/testmonial-grid)        |                                [Live Demo](https://frontend-playground-testmonial.vercel.app/)                                |       [Vercel](https://vercel.com/)        |
+| 10  |                   [Fylo](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/fylo)                   |                                   [Live Demo](https://frontend-playground-j5jl.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
+| 11  |               [Bookmark](https://github.com/Rurutia1027/frontend-playground/tree/main/tailwind-css-projects/bookmark)               |                                   [Live Demo](https://frontend-playground-lftt.vercel.app/)                                   |       [Vercel](https://vercel.com/)        |
 
 ### 3. [Javascript Mastery](./javascript-mastery)
 
 Explore key concepts such as **Promises**, **Generators**, **Async/Await**, **Type Coercion**,** Data Structures**, the **Module System**, and **NPM**. This section also introduces the basics of Express JS and React JS for building dynamic, modern applications.
+
+### 4. [React Projects](./react-projects/react-projects/)
+
+Most of the projects are planned for deployment on Vercel, which provides a convenient platform for hosting frontend websites. For more advanced projects that require frequent interaction or backend-focused services, deployment will be handled via **AWS CloudFront** or **AWS Elastic Beanstalk**.
+
+| Project Name           | Live Demo                                                   | Deployment Platform | React Key Libraries                     |
+| ---------------------- | ----------------------------------------------------------- | ------------------- | --------------------------------------- |
+| 01 - Birthday Reminder | [Live Demo](https://birthday-reminder-teal-chi.vercel.app/) | Vercel              | `useState`, `useEffect`                 |
+| 02 - Tours             | [Live Demo](http://your-cloudfront-url)                     | Vercel              | `useState`, `useEffect`                 |
+| 03 - Reviews           | [Live Demo](http://your-cloudfront-url)                     | Vercel              | `useState`, `useEffect`                 |
+| 04 - Accordion         | [Live Demo](http://your-cloudfront-url)                     | Vercel              | `useState`                              |
+| 05 - Menu              | [Live Demo](http://your-cloudfront-url)                     | Vercel              | `useState`                              |
+| 06 - Tabs              | [Live Demo](http://your-cloudfront-url)                     | Vercel              | `useState`                              |
+| 07 - Slider            | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`                              |
+| 08 - Lorem Ipsum       | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 09 - Color Generator   | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 10 - Grocery Bud       | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`                              |
+| 11 - Navbar            | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 12 - Sidebar & Modal   | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 13 - Stripe Submenus   | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 14 - Cart              | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useContext`                |
+| 15 - Cocktails         | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 16 - Markdown Preview  | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 17 - Random Person     | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 18 - Pagination        | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 19 - Stock Photos      | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 20 - Dark Mode         | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
+| 21 - Movie DB          | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`, `React Router` |
+| 22 - Hacker News       | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`, `React Router` |
+| 23 - Quiz              | [Live Demo](http://your-cloudfront-url)                     | AWS S3 + CloudFront | `useState`, `useEffect`                 |
 
 ---
 
