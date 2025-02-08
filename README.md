@@ -92,15 +92,21 @@ Most of the projects are planned for deployment on Vercel, which provides a conv
 
 ### 5. [Tailwind Figma CSS Projects](./tailwind-css-figma/)
 
-Learn how to convert Figma designs into responsive, pixel-perfect UIs using Tailwind CSS. This section focuses on streamlining the design-to-code workflow, making it easier to build clean, organized frontend layouts without getting lost in complex CSS details.
+- Basic:
+  Learn how to convert Figma designs into responsive, pixel-perfect UIs using Tailwind CSS. This section focuses on streamlining the design-to-code workflow, making it easier to build clean, organized frontend layouts without complex CSS.
+
+- Advanced:
+  Take it further with Builder.io, using AI to generate clean, responsive code from Figma designs in real-time. No setup required—convert designs to React, Next.js, Vue, Svelte, Angular, and more, with your preferred styling library like Tailwind CSS, CSS Modules, or Styled Components. The generated code is automatically responsive, easy to read, and integrates seamlessly with existing projects.
 
 #### References
 
 - [EPICWEB Video](https://www.epicweb.dev/events/pixel-perfect-figma-to-tailwind-2024-03-07)
 - [Youtube Vide](https://www.youtube.com/watch?v=yoSlHRMifK8)
 - [Github Source Code](https://github.com/epicweb-dev/pixel-perfect-tailwind)
-- [Figma Online Files](https://www.figma.com/community/file/1365451893452608564/pixel-perfect-tailwind)
-- [Blog](https://www.builder.io/blog/figma-to-tailwind)
+- [Course Figma](https://www.figma.com/community/file/1365451893452608564/pixel-perfect-tailwind)
+- [Builder.IO](https://www.builder.io/blog/figma-to-tailwind)
+- [Builder.IO Youtube](https://www.youtube.com/@Builderio)
+- [Builder.IO Figma](https://www.figma.com/community/plugin/747985167520967365/builder-io-ai-powered-figma-to-code-react-vue-tailwind-more)
 
 ---
 
