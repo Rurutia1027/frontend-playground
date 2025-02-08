@@ -1,11 +1,12 @@
 # Frontend Playground [![pages-build-deployment](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Rurutia1027/frontend-playground/actions/workflows/pages/pages-build-deployment)
 
-Welcome to the **Frontend Playground**! 🎨 This repository is a collection of projects and experiments aimed at learning and mastering **React**, **Tailwind CSS**, and **JavaScript**.
+Welcome to the **Frontend Playground**! 🎨 This repository is a collection of projects and experiments aimed at learning and mastering **React**, **Tailwind CSS**, **Figma** and **JavaScript**.
 
 ---
 
 ## To-Do List
 
+- [ ] [Tailwind CSS with Figma - in Progress](./tailwind-css-figma/)
 - [x] [Tailwind CSS SandBox](./tailwind-css-sandbox/)
 - [x] [Tailwind CSS Projects](./tailwind-css-projects/)
 - [x] [Javascript Mastery](./javascript-mastery/)
@@ -63,31 +64,43 @@ Explore key concepts such as **Promises**, **Generators**, **Async/Await**, **Ty
 
 Most of the projects are planned for deployment on Vercel, which provides a convenient platform for hosting frontend websites. For more advanced projects that require frequent interaction or backend-focused services, deployment will be handled via **AWS CloudFront** or **AWS Elastic Beanstalk**.
 
-| Project Name           | Live Demo                                                   | Source Code                                                                                             | Deployment Platform | Status  |
-| ---------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------- | ------- |
-| 01 - Birthday Reminder | [Live Demo](https://birthday-reminder-teal-chi.vercel.app/) | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/01-birthday-reminder)         | Vercel              | ✅ Done |
-| 02 - Tours             | [Live Demo](https://tours-kohl.vercel.app/)                 | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/02-tours)                     | Vercel              | ✅ Done |
-| 03 - Reviews           | [Live Demo](https://reviews-alpha-five.vercel.app/)         | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/03-reviews)                   | Vercel              | ✅ Done |
-| 04 - Accordion         | [Live Demo](https://accordion-nine-green.vercel.app/)       | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/04-accordion)                 | Vercel              | ✅ Done |
-| 05 - Menu              | [Live Demo](https://menu-mauve-seven.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/05-menu)                      | Vercel              | ✅ Done |
-| 06 - Tabs              | [Live Demo](https://tabs-woad-theta.vercel.app/)            | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/06-tabs)                      | Vercel              | ✅ Done |
-| 07 - Slider            | [Live Demo](https://slide-cln28dyue-rurutia.vercel.app/)    | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/07-slider)                    | Vercel              | ✅ Done |
-| 08 - Lorem Ipsum       | [Live Demo](https://lorem-ipsum-iota.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/08-lorem-ipsum)               | Vercel              | ✅ Done |
-| 09 - Color Generator   | [Live Demo](https://color-generator-delta-one.vercel.app/)  | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/09-color-generator)           | Vercel              | ✅ Done |
-| 10 - Grocery Bud       | [Live Demo](https://grocery-bud-omega-inky.vercel.app/)     | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/10-grocery-bud)               | Vercel              | ✅ Done |
-| 11 - Navbar            | [Live Demo](https://navbar-sable-kappa.vercel.app/)         | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/11-navbar)                    | Vercel              | ✅ Done |
-| 12 - Sidebar & Modal   | [Live Demo](https://sidebar-rurutia.vercel.app/)            | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/12-sidebar-modal)             | Vercel              | ✅ Done |
-| 13 - Stripe Submenus   | [Live Demo](https://stripe-chi.vercel.app/)                 | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/13-stripe-submenus)           | Vercel              | ✅ Done |
-| 14 - Cart              | [Live Demo](https://cart-three-lovat.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/14-cart)                      | Vercel              | ✅ Done |
-| 15 - Cocktails         | [Live Demo](https://cocktails-olive-sigma.vercel.app/)      | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/15-cocktails)                 | Vercel              | ✅ Done |
-| 16 - Markdown Preview  | [Live Demo](https://markdown-preview-eta.vercel.app/)       | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/16-markdown-preview)          | Vercel              | ✅ Done |
-| 17 - Random Person     | [Live Demo](http://your-cloudfront-url)                     | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/17-random-person)             | Vercel              | ✅ Done |
-| 18 - Pagination        | [Live Demo](https://pagination-eta-five.vercel.app/)        | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/18-pagination)                | Vercel              | ✅ Done |
-| 19 - Stock Photos      | [Live Demo](https://stock-photo.vercel.app/)                | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/19-stock-photos)              | Vercel              | ✅ Done |
-| 20 - Dark Mode         | [Live Demo](https://dark-mode-xi-black.vercel.app/)         | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/20-dark-mode)                 | Vercel              | ✅ Done |
-| 21 - Movie DB          | [Live Demo](https://movie-db-rurutia.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/21-movie-db)                  | Vercel              | ✅ Done |
-| 22 - Hacker News       | [Live Demo](https://hacker-news-drab-three.vercel.app/)     | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/22-hacker-news)               | Vercel              | ✅ Done |
-| 23 - Quiz              | [Live Demo](https://quiz-two-rosy.vercel.app/)              | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/23-quiz)                      | Vercel              | ✅ Done |
+| Project Name           | Live Demo                                                   | Source Code                                                                                    | Deployment Platform | Status  |
+| ---------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------- | ------- |
+| 01 - Birthday Reminder | [Live Demo](https://birthday-reminder-teal-chi.vercel.app/) | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/01-birthday-reminder) | Vercel              | ✅ Done |
+| 02 - Tours             | [Live Demo](https://tours-kohl.vercel.app/)                 | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/02-tours)             | Vercel              | ✅ Done |
+| 03 - Reviews           | [Live Demo](https://reviews-alpha-five.vercel.app/)         | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/03-reviews)           | Vercel              | ✅ Done |
+| 04 - Accordion         | [Live Demo](https://accordion-nine-green.vercel.app/)       | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/04-accordion)         | Vercel              | ✅ Done |
+| 05 - Menu              | [Live Demo](https://menu-mauve-seven.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/05-menu)              | Vercel              | ✅ Done |
+| 06 - Tabs              | [Live Demo](https://tabs-woad-theta.vercel.app/)            | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/06-tabs)              | Vercel              | ✅ Done |
+| 07 - Slider            | [Live Demo](https://slide-cln28dyue-rurutia.vercel.app/)    | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/07-slider)            | Vercel              | ✅ Done |
+| 08 - Lorem Ipsum       | [Live Demo](https://lorem-ipsum-iota.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/08-lorem-ipsum)       | Vercel              | ✅ Done |
+| 09 - Color Generator   | [Live Demo](https://color-generator-delta-one.vercel.app/)  | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/09-color-generator)   | Vercel              | ✅ Done |
+| 10 - Grocery Bud       | [Live Demo](https://grocery-bud-omega-inky.vercel.app/)     | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/10-grocery-bud)       | Vercel              | ✅ Done |
+| 11 - Navbar            | [Live Demo](https://navbar-sable-kappa.vercel.app/)         | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/11-navbar)            | Vercel              | ✅ Done |
+| 12 - Sidebar & Modal   | [Live Demo](https://sidebar-rurutia.vercel.app/)            | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/12-sidebar-modal)     | Vercel              | ✅ Done |
+| 13 - Stripe Submenus   | [Live Demo](https://stripe-chi.vercel.app/)                 | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/13-stripe-submenus)   | Vercel              | ✅ Done |
+| 14 - Cart              | [Live Demo](https://cart-three-lovat.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/14-cart)              | Vercel              | ✅ Done |
+| 15 - Cocktails         | [Live Demo](https://cocktails-olive-sigma.vercel.app/)      | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/15-cocktails)         | Vercel              | ✅ Done |
+| 16 - Markdown Preview  | [Live Demo](https://markdown-preview-eta.vercel.app/)       | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/16-markdown-preview)  | Vercel              | ✅ Done |
+| 17 - Random Person     | [Live Demo](http://your-cloudfront-url)                     | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/17-random-person)     | Vercel              | ✅ Done |
+| 18 - Pagination        | [Live Demo](https://pagination-eta-five.vercel.app/)        | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/18-pagination)        | Vercel              | ✅ Done |
+| 19 - Stock Photos      | [Live Demo](https://stock-photo.vercel.app/)                | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/19-stock-photos)      | Vercel              | ✅ Done |
+| 20 - Dark Mode         | [Live Demo](https://dark-mode-xi-black.vercel.app/)         | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/20-dark-mode)         | Vercel              | ✅ Done |
+| 21 - Movie DB          | [Live Demo](https://movie-db-rurutia.vercel.app/)           | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/21-movie-db)          | Vercel              | ✅ Done |
+| 22 - Hacker News       | [Live Demo](https://hacker-news-drab-three.vercel.app/)     | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/22-hacker-news)       | Vercel              | ✅ Done |
+| 23 - Quiz              | [Live Demo](https://quiz-two-rosy.vercel.app/)              | [Source Code](https://github.com/Rurutia1027/react-js-projects/tree/main/23-quiz)              | Vercel              | ✅ Done |
+
+### 5. [Tailwind Figma CSS Projects](./tailwind-css-figma/)
+
+Learn how to convert Figma designs into responsive, pixel-perfect UIs using Tailwind CSS. This section focuses on streamlining the design-to-code workflow, making it easier to build clean, organized frontend layouts without getting lost in complex CSS details.
+
+#### References
+
+- [EPICWEB Video](https://www.epicweb.dev/events/pixel-perfect-figma-to-tailwind-2024-03-07)
+- [Youtube Vide](https://www.youtube.com/watch?v=yoSlHRMifK8)
+- [Github Source Code](https://github.com/epicweb-dev/pixel-perfect-tailwind)
+- [Figma Online Files](https://www.figma.com/community/file/1365451893452608564/pixel-perfect-tailwind)
+- [Blog](https://www.builder.io/blog/figma-to-tailwind)
 
 ---
 
